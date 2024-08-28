@@ -7,5 +7,5 @@ app_name = NewappConfig.name
 
 urlpatterns = [
     path('', home, name='home'),
-    path('', contacts, name='contacts')
+    path('contacts/', contacts, name='contacts')
 ]
